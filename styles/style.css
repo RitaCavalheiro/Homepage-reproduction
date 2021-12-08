@@ -21,7 +21,8 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
+  font-family: var(--heading-font);
   font-size: 48px;
 }
 
@@ -87,7 +88,7 @@ nav a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-container img {
@@ -196,9 +197,6 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
-    font-size: 18px;
-  }
   .project-description {
     padding: 0;
     text-align: center;
@@ -214,9 +212,5 @@ footer .social-links a:hover {
   nav a {
     font-size: 14px;
     margin: 5px;
-  }
-
-  footer .contact-box {
-    padding: 30px;
   }
 }
